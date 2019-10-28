@@ -1,0 +1,298 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+html,
+body {
+    color: purple;
+    background-repeat: no-repeat;
+	/* background-attachment: scroll; */
+    background-position: 82%;
+    background-size: cover;
+	text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    box-sizing: border-box;
+    font-size: 1em;
+    display: block;
+}
+
+#title {
+    font-family: 'Luckiest Guy', cursive;
+    color: purple;
+    font-size: 2.5em;
+}
+
+#mov-lnk {
+    text-decoration: none;
+    color: purple;
+}
+
+#mov-lnk:hover {
+    text-decoration: none;
+    color: #ffcc00;
+    -ms-transform: scaleX(1.1); /* IE 9 */
+    -webkit-transform: scaleX(1.1); /* Safari 3-8 */
+    transform: scaleX(1.1);
+}
+
+
+
+
+#description {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Luckiest Guy', cursive;
+    color: purple;
+}
+
+#survey-form {
+    background: linear-gradient(to top left, #9DCCDB 0%, #64536D 100%);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding-top: 5px;
+    opacity: 0.75;
+    filter: alpha(opacity=75); /* For IE8 and earlier */
+    font-family: 'Luckiest Guy', cursive;
+    color: purple;
+}
+
+#itenerary {
+    background: linear-gradient(to top left, #624D64 0%, #9DCCDB 100%);
+    width: 600px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 5%;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 10px;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    font-family: 'Luckiest Guy', cursive;
+    color: purple;
+}
+
+#itenerary h1 {
+    text-align: center;
+}
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.inpt {
+
+    height: 30px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 30px;
+  
+}
+
+.column p {
+    font-size: .8em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+fieldset {
+    border-radius: 5px;
+}
+
+fieldset h4 {
+    text-align: center;
+}
+
+#radioBtn {
+    height: 175px;
+    text-align: left;
+    border: 1px solid cadetblue;
+}
+
+#radioBtn input {
+    margin-left: 50px;
+}
+
+#submit {
+    background-color: purple;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+    width: 96px;
+    border: 0px;
+}
+
+#submit:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: purple;
+    border: 1px solid red;
+    -ms-transform: scaleX(1.2); /* IE 9 */
+    -webkit-transform: scaleX(1.2); /* Safari 3-8 */
+    transform: scaleX(1.2);  
+	
+}
+
+#movInfo {
+    font-size: 15px;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+
+#tbd {
+	font-size: 20px;
+	color: red;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+#outlook {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+sup {
+    color: red;
+}
+
+h3 a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: 'Poiret One', cursive;
+	font-size: 25px;
+}
+
+h3 a:hover {
+ 	text-decoration: none;
+    color: #ffcc00; 
+    font-size: 30px;
+}
+
+.column p {
+	font-size: 15px;
+}
+
+@media screen and (max-width: 833px) {
+    .inpt {
+        width: 80%;
+    }
+    select {
+        width: 90%;
+    }
+
+    #radioBtn input {
+        margin-left: 30px;
+    }
+    #checkBox input {
+        margin-left: 30px;
+    }
+    body {
+        font-size: 1em;
+    }
+    #survey-form {
+        width: 600px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }
+    .rightTab {
+        width: 80%;
+        float: left;
+    }
+    .inpt {
+        width: 100%;
+        margin-top: 0px;
+    }
+    select {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    textarea {
+        width: 80%;
+        height: 80px;
+
+    }
+
+    #radioBtn input {
+        margin-left: 10px;
+    }
+    #checkBox input {
+        margin-left: 10px;
+    }
+
+    body {
+        font-size: 1em;
+    }
+	
+	#survey-form {
+        width: 360px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	
+	#itenerary {
+		width: 360px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+	}
+
+
+}
